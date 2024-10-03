@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SHLP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD30V>
+    <SHLPNAME>ZHELP_EMP_COL</SHLPNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DDTEXT>EMPLOYEE SEARCH</DDTEXT>
+    <ELEMEXI>X</ELEMEXI>
+   </DD30V>
+   <DD31V_TABLE>
+    <DD31V>
+     <SHLPNAME>ZHELP_EMP_COL</SHLPNAME>
+     <SUBSHLP>ZHELP_EMP</SUBSHLP>
+     <SHPOSITION>0001</SHPOSITION>
+     <VIASHLP>ZHELP_EMP_COL</VIASHLP>
+    </DD31V>
+    <DD31V>
+     <SHLPNAME>ZHELP_EMP_COL</SHLPNAME>
+     <SUBSHLP>ZHELP_EMP_DEPT</SUBSHLP>
+     <SHPOSITION>0002</SHPOSITION>
+     <VIASHLP>ZHELP_EMP_COL</VIASHLP>
+    </DD31V>
+   </DD31V_TABLE>
+   <DD32P_TABLE>
+    <DD32P>
+     <SHLPNAME>ZHELP_EMP_COL</SHLPNAME>
+     <FIELDNAME>EMPLOYEE_ID</FIELDNAME>
+     <FLPOSITION>0001</FLPOSITION>
+     <ROLLNAME>ZMEMP_ID</ROLLNAME>
+     <SHLPINPUT>X</SHLPINPUT>
+     <SHLPOUTPUT>X</SHLPOUTPUT>
+     <ROLLCHANGE>N</ROLLCHANGE>
+     <SCRLEN3>20</SCRLEN3>
+    </DD32P>
+   </DD32P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
